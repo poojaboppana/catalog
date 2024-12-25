@@ -1,0 +1,84 @@
+*{
+    text-align: center;
+}
+body{
+    background:linear-gradient(to right,rgb(43, 43, 68),rgb(202, 69, 92),rgb(218, 146, 14));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+   
+}
+table, th, td, tr{
+    border: 2px solid rgb(238, 228, 228);
+    border-inline: 2px solid rgb(247, 244, 244);
+    color: white;
+    font-size: 20px;
+}
+img{
+    height:120px;
+    width:100px;
+    transition: 2s;
+}
+img:hover{
+    transform: scale(1.5);
+}
+h3{
+    text-align: left;
+    color:aqua;
+    margin-top: 2px;
+    left:0%;
+    white-space: nowrap;
+    animation: moveText 10s linear infinite;
+}
+@keyframes moveText{
+    0%{
+left:0%;
+
+    }
+    100%{
+        left: 100%;
+        transform: translateX(100%);
+
+    }
+}
+
+table{
+    width: 1000px;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 3px;
+    background:url('https://i.pinimg.com/originals/16/1c/9e/161c9e800003d67a899f4dd522915b65.jpg');
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+th{
+    padding: 20px;
+    font-size: 30px;
+}
+td{
+    padding: 20px;
+}
+tr{
+    padding: 20px;
+}
+h1{
+    font-size: 80px;
+    margin-top: 1px;
+    background:url('https://media.istockphoto.com/id/1077626348/photo/silver-glitter-texture-white-sparkling-shiny-wrapping-paper-background-for-christmas-holiday.jpg?s=612x612&w=0&k=20&c=i_u8O9UJNIV3J3VWV4cpWAFy8b4bQ1kWoku57tSeqsc=');
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+}
+button{
+    color: white;
+    background-color: rgb(115, 146, 233);
+    border-radius: 40px;
+    height: 40px;
+    font-size: bolder;
+    
+}
+button:hover{
+    box-shadow: 0px 0px 60px white;
+}
